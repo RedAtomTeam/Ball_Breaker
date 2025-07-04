@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc5527fc8dfe2ac419582f1a9f294ab5, type: 3}
+  m_Name: RockConfig
+  m_EditorClassIdentifier: 
+  targetTool: {fileID: 11400000, guid: 7d1017f27306f3b4e952ebb78e8a43a2, type: 2}
+  obstacleLevels:
+  - level: 1
+    durability: 200
+  - level: 2
+    durability: 250
+  - level: 3
+    durability: 300
+  - level: 4
+    durability: 350
+  - level: 5
+    durability: 400
+  - level: 6
+    durability: 450
+  - level: 7
+    durability: 500
+  - level: 8
+    durability: 550
+  - level: 9
+    durability: 600
+  - level: 10
+    durability: 650
