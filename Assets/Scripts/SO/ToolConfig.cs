@@ -12,6 +12,12 @@ public class ToolConfig : ScriptableObject
     {
         get => toolLevels.First(e => e.level == level).power;
     }
+    event Action onChange;
+
+    public void PerformChange()
+    {
+        onChange?.Invoke();
+    }
 }
 
 [Serializable]
