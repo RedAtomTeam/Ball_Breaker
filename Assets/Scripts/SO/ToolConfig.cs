@@ -8,6 +8,7 @@ public class ToolConfig : ScriptableObject
 {
     public int level = 1;
     public List<ToolLevel> toolLevels;
+    public AudioClip clip;
     public int Power
     {
         get => toolLevels.First(e => e.level == level).power;

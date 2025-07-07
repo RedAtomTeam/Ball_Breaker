@@ -29,10 +29,13 @@ public class AudioService : MonoBehaviour
 
     private void Init()
     {
-        _soundtracksSource.clip = _clips[0];
-        _soundEffectsSource.volume = PlayerPrefs.GetFloat(_soundEffectsPropertyName, 1f);
-        _soundtracksSource.volume = PlayerPrefs.GetFloat(_soundtracksPropertyName, 1f);
-        _soundtracksSource.Play();
+        if (_clips.Count > 0)
+        {
+            _soundtracksSource.clip = _clips[0];
+            _soundEffectsSource.volume = PlayerPrefs.GetFloat(_soundEffectsPropertyName, 1f);
+            _soundtracksSource.volume = PlayerPrefs.GetFloat(_soundtracksPropertyName, 1f);
+            _soundtracksSource.Play();
+        }
     }
 
 

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: LevelConfig 7
   m_EditorClassIdentifier: 
   level: 7
-  sceneName: 
+  sceneName: Level 7
   status: 0

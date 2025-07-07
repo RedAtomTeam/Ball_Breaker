@@ -11,6 +11,7 @@ public class Tool : MonoBehaviour
     {
         _destroyArea.OverlapCollider(new ContactFilter2D(), _collidersInArea);
         _collidersInArea[0]?.GetComponent<Obstacle>().GetDamage(_toolConfig.Power, _toolConfig);
+        AudioService.Instance.PlayEffect(_toolConfig.clip);
     }
 
 }

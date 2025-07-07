@@ -8,6 +8,7 @@ public class Arc : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        scoreGoalEvent?.Invoke();
+        if (collision.gameObject.CompareTag("Ball")) 
+            scoreGoalEvent?.Invoke();
     }
 }

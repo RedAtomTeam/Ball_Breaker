@@ -47,6 +47,7 @@ public class ShopToolCell : MonoBehaviour
         {
             _balanceConfig.Remove(_toolConfig.toolLevels[_toolConfig.toolLevels.Count - 1].cost);
             _toolConfig.level++;
+            _balanceConfig.PerformChange();
         }
         UpdateWindow();
     }

@@ -35,6 +35,8 @@ public class LevelController : MonoBehaviour
         if (!(_levelConfig.sceneName == _allLevelsConfig.levels[_allLevelsConfig.levels.Count - 1].sceneName))
             _allLevelsConfig.levels.First(e => e.level == _levelConfig.level + 1).status = true;
         _balanceConfig.Add(100);
+        SaveLoadConfigsService.Instance.SaveAll();
+
         _winWindow.SetActive(true);
     }
 
