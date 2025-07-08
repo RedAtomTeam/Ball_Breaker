@@ -42,7 +42,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7223575217727624995, guid: 55993ce7a94b0be4daf40f85ded070c0, type: 3}
       propertyPath: m_Size.y
-      value: 70
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223575217727624995, guid: 55993ce7a94b0be4daf40f85ded070c0, type: 3}
+      propertyPath: m_Offset.y
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 8514787278755143448, guid: 55993ce7a94b0be4daf40f85ded070c0, type: 3}
       propertyPath: m_Pivot.x

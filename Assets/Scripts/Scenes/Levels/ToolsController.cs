@@ -11,10 +11,12 @@ public class ToolsController : MonoBehaviour
 
     private void Awake()
     {
-        for (int i = 0; i < _buttonsAndTools.Count; i++)
-        {
-            var btnAndTool = _buttonsAndTools[i];
-            _buttonsAndTools[i]._button.onClick.AddListener(
+        foreach (var button in _buttonsAndTools) {
+        //for (int i = 0; i < _buttonsAndTools.Count; i++)
+        //{
+            //var btnAndTool = _buttonsAndTools[i];
+            //_buttonsAndTools[i]
+            button._button.onClick.AddListener(
                 () =>
                 {
                     for (int j = 0; j < _buttonsAndTools.Count; j++)
@@ -22,9 +24,9 @@ public class ToolsController : MonoBehaviour
                         _buttonsAndTools[j]._button.transform.localScale = Vector3.one;
                         _buttonsAndTools[j]._tool.gameObject.SetActive(false);
                     }
-                    btnAndTool._button.transform.localScale = Vector3.one * 1.2f;
-                    btnAndTool._tool.gameObject.SetActive(true);
-                    _selectTool = btnAndTool._tool;
+                    button._button.transform.localScale = Vector3.one * 1.2f;
+                    button._tool.gameObject.SetActive(true);
+                    _selectTool = button._tool;
                 }
             );
         }
