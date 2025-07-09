@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6482707834309796015}
   - component: {fileID: 3135441032720408165}
   - component: {fileID: 3012854806892149493}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 4033023319535599336}
   - component: {fileID: 3370973750565364121}
   - component: {fileID: 7203900030608291841}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,7 +160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5277339102729073634}
   - component: {fileID: 2771235647779233741}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: DestroyZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 1097419388993671959}
   - component: {fileID: 1994229551215858019}
   - component: {fileID: 6459642107536077517}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -360,7 +360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5107303872301989395}
   - component: {fileID: 256435101045587325}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: IronTool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -412,7 +412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4392401985541350026}
   - component: {fileID: 1463489048352752142}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: WoodTool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2161898799683472077}
   - component: {fileID: 8513168430373631197}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: ToolPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -523,7 +523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1869321602183066938}
   - component: {fileID: 8563018296165468168}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: RockTool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,7 +576,7 @@ GameObject:
   - component: {fileID: 5951824253154025883}
   - component: {fileID: 7131579757349034612}
   - component: {fileID: 4008655256635336161}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: RawImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -647,7 +647,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2122594243313556670}
   - component: {fileID: 9138804358667078892}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: DestroyZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -719,7 +719,7 @@ GameObject:
   - component: {fileID: 4455681304436369624}
   - component: {fileID: 959788599225924297}
   - component: {fileID: 5154056805629510363}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -793,7 +793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8729087198100441835}
   - component: {fileID: 4707759105481100519}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: DestroyZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
