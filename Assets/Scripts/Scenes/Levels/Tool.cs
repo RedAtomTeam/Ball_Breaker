@@ -10,7 +10,8 @@ public class Tool : MonoBehaviour
     public void Tap()
     {
         print(_destroyArea.OverlapCollider(new ContactFilter2D(), _collidersInArea));
-        _collidersInArea[0]?.GetComponent<Obstacle>().GetDamage(_toolConfig.Power, _toolConfig);
+        if (_destroyArea.OverlapCollider(new ContactFilter2D(), _collidersInArea) > 0)
+            _collidersInArea[0]?.GetComponent<Obstacle>()?.GetDamage(_toolConfig.Power, _toolConfig);
         AudioService.Instance.PlayEffect(_toolConfig.clip);
     }
 

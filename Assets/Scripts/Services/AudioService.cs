@@ -64,8 +64,11 @@ public class AudioService : MonoBehaviour
 
     private bool IsTrackEnd()
     {
-        if (((_soundtracksSource.clip.length - _soundtracksSource.time) < 5f))
-            return true;
+        if (_clips.Count > 0)
+        {
+            if (((_soundtracksSource.clip.length - _soundtracksSource.time) < 5f))
+                return true;
+        }
         return false;
     }
 

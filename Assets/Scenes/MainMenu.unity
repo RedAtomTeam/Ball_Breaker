@@ -2963,8 +2963,7 @@ MonoBehaviour:
   _soundEffectsPropertyName: Effects
   _soundtracksSource: {fileID: 1378920324}
   _soundEffectsSource: {fileID: 1231333883}
-  _clips:
-  - {fileID: 8300000, guid: 03f1501666dd8d34b9f1773b9083bf7c, type: 3}
+  _clips: []
 --- !u!4 &636754453
 Transform:
   m_ObjectHideFlags: 0
